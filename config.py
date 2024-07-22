@@ -48,10 +48,10 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝐒𝐨𝐫𝐫𝐲 {first} 𝐁𝐫𝐨/𝐒𝐢𝐬 𝐲𝐨𝐮 𝐡𝐚𝐯𝐞 𝐭𝐨 𝐣𝐨𝐢𝐧 𝐦𝐲 𝐜𝐡𝐚𝐧𝐧𝐞𝐥𝐬 𝐟𝐢𝐫𝐬𝐭 𝐭𝐨 𝐚𝐜𝐜𝐞𝐬𝐬 𝐟𝐢𝐥𝐞𝐬..\n\n 𝐒𝐨 𝐩𝐥𝐞𝐚𝐬𝐞 𝐣𝐨𝐢𝐧 𝐦𝐲 𝐜𝐡𝐚𝐧𝐧𝐞𝐥𝐬 𝐟𝐢𝐫𝐬𝐭 𝐚𝐧𝐝 𝐜𝐥𝐢𝐜𝐤 𝐨𝐧 “𝐍𝐨𝐰 𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞” 𝐛𝐮𝐭𝐭𝐨𝐧....!")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝙎𝙪𝙣𝙣𝙖 {first} 𝙔𝙚 3 𝘾𝙝𝙖𝙣𝙣𝙚𝙡𝙨 𝙟𝙤𝙞𝙣 𝙠𝙖𝙧𝙡𝙚 𝙛𝙞𝙧 𝙝𝙚 𝙩𝙪𝙟𝙞 𝙢𝙖𝙖𝙡 𝙢𝙞𝙡𝙚𝙜𝙖..\n\n𝘼𝙪𝙧 𝙅𝙤𝙞𝙣 𝙠𝙖𝙧 𝙣𝙚 𝙗𝙖𝙙𝙖𝙢𝙚 𝙞𝙨𝙥𝙚 𝘾𝙡𝙞𝙘𝙠 𝙠𝙖𝙧 “𝐍𝐨𝐰 𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞” 𝘽𝙪𝙩𝙩𝙤𝙣....!")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>» ʙʏ @team_netflix</b>")
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>𝙠𝙮𝙖 𝙗𝙝𝙖𝙞 𝙠𝙮𝙖 𝙝𝙪𝙖 𝙠𝙮𝙪 𝙗𝙤𝙩 𝙠𝙚 𝙜𝙖𝙣𝙙 𝙢𝙖𝙧 𝙧𝙖𝙝 𝙝𝙖𝙞</b>")
 
 #set True if you want to prevent users from forwarding files from bot
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" else False
@@ -60,7 +60,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" el
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘᴀɪ!!\n\n» ᴍʏ ᴏᴡɴᴇʀ : @sewxiy"
+USER_REPLY_TEXT = "𝙆𝙮𝙪𝙪 𝘽𝙤𝙩 𝙠𝙚 𝙜𝙖𝙣𝙙 𝙢𝙖𝙧 𝙧𝙖𝙝 𝙝𝙪 𝙗𝙝𝙖𝙞..\n\n𝙢𝙖𝙩 𝙠𝙖𝙧𝙤 𝙢𝙨𝙜 𝙮𝙚 𝙥𝙚 𝙢𝙖𝙖𝙡 𝙘𝙝𝙖𝙣𝙣𝙚𝙡 𝙥𝙚 𝙝𝙖𝙞"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(6497757690)
