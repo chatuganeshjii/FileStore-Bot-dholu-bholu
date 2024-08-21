@@ -39,7 +39,7 @@ FORCESUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {first}\n\n ɪ ᴀᴍ ᴍᴜʟᴛɪ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ , ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ » @team_netflix</b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {first}\n\n ɪ ᴀᴍ ᴍᴜʟᴛɪ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ , ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ</b>")
 try:
     ADMINS=[6376328008]
     for x in (os.environ.get("ADMINS", "5239113414 7323409831").split()):
@@ -51,7 +51,7 @@ except ValueError:
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝙎𝙪𝙣𝙣𝙖 {first} 𝙔𝙚 3 𝘾𝙝𝙖𝙣𝙣𝙚𝙡𝙨 𝙟𝙤𝙞𝙣 𝙠𝙖𝙧𝙡𝙚 𝙛𝙞𝙧 𝙝𝙚 𝙩𝙪𝙟𝙞 𝙢𝙖𝙖𝙡 𝙢𝙞𝙡𝙚𝙜𝙖..\n\n𝘼𝙪𝙧 𝙅𝙤𝙞𝙣 𝙠𝙖𝙧 𝙣𝙚 𝙗𝙖𝙙𝙖𝙢𝙚 𝙞𝙨𝙥𝙚 𝘾𝙡𝙞𝙘𝙠 𝙠𝙖𝙧 “𝐍𝐨𝐰 𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞” 𝘽𝙪𝙩𝙩𝙤𝙣....!")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>𝙠𝙮𝙖 𝙗𝙝𝙖𝙞 𝙠𝙮𝙖 𝙝𝙪𝙖 𝙠𝙮𝙪 𝙗𝙤𝙩 𝙠𝙚 𝙜𝙖𝙣𝙙 𝙢𝙖𝙧 𝙧𝙖𝙝 𝙝𝙖𝙞</b>")
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>𝙠𝙮𝙖 𝙗𝙝𝙖𝙞 𝙠𝙮𝙪 𝙢𝙨𝙜 𝙠𝙖𝙧 𝙧𝙖𝙝 𝙝𝙪 𝙮𝙚 𝙥𝙚</b>")
 
 #set True if you want to prevent users from forwarding files from bot
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" else False
